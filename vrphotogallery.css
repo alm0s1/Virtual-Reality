@@ -1,0 +1,66 @@
+body{
+
+    background-image:url("vrback.jpeg");
+    
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+    }
+    
+    .vrh1{
+    
+    font-size:90px;
+    letter-space:3px;
+    color:white;
+    margin-top:30px;
+    margin-left:30%;
+    }
+    
+    .vrdiv{
+    
+    margin-left:130px;
+    }
+    .vrgallery{
+    display:block;
+    float:left;
+    border-radius:4px;
+    width:30%;
+    overflow:hidden;
+    margin-top:17px;
+    margin-right:16px;
+    
+    
+    }
+    .vrgallery img{
+    width:100%;
+    height:300px;
+    border-radius:4px;
+    
+    }
+    .navbar ul li{
+        list-style: none;
+        display: inline-block;
+        margin: 0 20px;
+        position: relative;
+    }
+    
+    .navbar ul li a{
+        text-decoration: none;
+        color: #fffafa;
+        text-transform: uppercase;
+        
+    }
+    
+    .navbar ul li::after{
+        content: '';
+        height: 3px;
+        width:0%;
+        background:#009688;
+        position: absolute;
+        left:0;
+        bottom: -10;
+        transition: 0.5s;
+        
+    }
+    .navbar ul li:hover::after{
+        width:100%;}
